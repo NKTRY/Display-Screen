@@ -1,0 +1,38 @@
+body{
+	padding-top: 15px;
+}
+.navlogo{
+	padding-top:2px;
+	padding-right:20px;
+}
+#nav-nktry{
+	display: block;
+	background: url(../img/nktrylogo.png);
+}
+/*now start*/
+#nktry{
+	margin-top: 5px;
+}
+.china-city-alert{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 300px;
+}
+#china-city-select-content{
+	margin-top: 5px;
+}
+
+#china-city-select-content-list > li{
+	margin-top: 10px;
+	margin-left:50px;
+}
+#china-university-list{
+	height: 800px;
+}
+.china-university-list-content-table{
+	text-align:center;
+}
+.china-university-list-content-table > thead > tr > th{
+	text-align: center;
+	vertical-align: center;
+}

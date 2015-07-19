@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>南开中学体验创意中心</title>
+	<link rel="stylesheet" type="text/css" href="./dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+	<script src="./dist/js/jquery-2.1.1.min.js"></script>
+	<script src="./dist/js/bootstrap.min.js"></script>
+	<script src="./js/js.js"></script>
+</head>
+<body oncontextmenu="return false">
+<div class="container">
+<ul id="myTab" class="nav nav-tabs nav-justified">
+    <li class="disabled"><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;体验创意中心</a></li>
+    <li class="active"><a href="#china" data-toggle="tab"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;国内高校查询</a></li>
+    <li class="disabled"><a href="#"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;国际名校</a></li>
+	<li class="disabled"><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;校友查询</a></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+
+        <!--国内大学 start-->
+        <div class="tab-pane fade active in" id="china">
+        	<div class="alert alert-success china-city-alert"><p>请根据<strong>拼音首字母</strong>选择要查询的城市</p></div>
+
+            <div class="china-city-select pull-right">
+                <ul class="nav nav-pills" id="china-city-select-ul">
+                    <li class="active"><a href="#" data-toggle="pill">A</a></li>
+                    <li><a href="#" data-toggle="pill" >B</a></li>
+                    <li><a href="#" data-toggle="pill">C</a></li>
+                    <li class="disabled"><a href="#">D</a></li>
+                    <li class="disabled"><a href="#">E</a></li>
+                    <li><a href="#" data-toggle="pill">F</a></li>
+                    <li><a href="#" data-toggle="pill">G</a></li>
+                    <li><a href="#" data-toggle="pill">H</a></li>
+                    <li class="disabled"><a href="#">I</a></li>
+                    <li><a href="#" data-toggle="pill">J</a></li>
+                    <li class="disabled"><a href="#">K</a></li>
+                    <li><a href="#" data-toggle="pill">L</a></li>
+                    <li class="disabled"><a href="#">M</a></li>
+                    <li><a href="#" data-toggle="pill">N</a></li>
+                    <li class="disabled"><a href="#">O</a></li>
+                    <li class="disabled"><a href="#">P</a></li>
+                    <li><a href="#" data-toggle="pill">Q</a></li>
+                    <li class="disabled"><a href="#">R</a></li>
+                    <li><a href="#" data-toggle="pill">S</a></li>
+                    <li><a href="#" data-toggle="pill">T</a></li>
+                    <li class="disabled"><a href="#">U</a></li>
+                    <li class="disabled"><a href="#">V</a></li>
+                    <li class="disabled"><a href="#">W</a></li>
+                    <li><a href="#" data-toggle="pill">X</a></li>
+                    <li><a href="#" data-toggle="pill">Y</a></li>
+                    <li><a href="#" data-toggle="pill">Z</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="tab-content panel panel-info" id="china-city-select-content">
+				<div class="tab-pane fade in active panel-body" >
+					<ul class="list-inline" id="china-city-select-content-list"> 
+						<li><a href="#">安徽省</a></li>
+						<li><a href="#">澳门特别行政区</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+            <div class="panel panel-danger" id="china-university-list">
+            	<div class="panel-heading china-university-list-title">
+					&nbsp;            	
+            	</div>
+            	<div class="panel-body">
+					<table class="table table-striped china-university-list-content-table">
+						<thead>
+						<tr>
+							<th>名称</th>
+							<th>校徽</th>
+							<th>官网</th>
+							<th>985/211工程</th>
+							<th>学校简介</th>
+						</tr>
+						</thead>
+						<tbody id="china-university-list-content">
+						</tbody>
+					</table>
+            	</div>
+            </div>
+        </div>
+        <!--国内大学 end-->
+</div>
+</div>	
+
+</body>
+</html>

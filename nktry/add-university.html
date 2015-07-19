@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>国内大学-城市-增加</title>
+  <link rel="stylesheet" type="text/css" href="./dist/css/bootstrap.min.css">
+  <script src="./dist/js/jquery-2.1.1.min.js"></script>
+  <script src="./dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h3 class="text-center">国内大学-学校增加操作</h3>
+    <form role="form" action="../nk-try/add-university.php" method="post">
+      <div class="form-group">
+        <label for="name">学校名称</label>
+        <input type="input" class="form-control" name="name" placeholder="学校名称">
+      </div>
+      <div class="form-group">
+        <label for="logo">校徽</label>
+        <input type="input" class="form-control" name="logo" placeholder="请填写校徽的文件名,例 zhanglinyue.jpg">
+      </div>
+      <div class="form-group">
+        <label for="url">官网</label>
+        <input type="input" class="form-control" name="url" value="http://">
+      </div>
+      <div class="form-group">
+        <label for="engine">985/211工程</label>
+        <input type="input" class="form-control" name="engine" placeholder="985=1 211=2 985+211=3">
+      </div>
+      <div class="form-group">
+        <label for="description">学校简介</label>
+        <textarea class="form-control" name="description" rows="3" placeholder="学校简介 50-100字"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="province">所属城市</label>
+        <input type="input" class="form-control" name="province" placeholder="请填写全称,例 北京市">
+      </div>
+      <button type="submit" class="btn btn-default">提交</button>
+    </form>
+  </div>
+</body>
+</html>
